@@ -92,7 +92,7 @@ def azqstool():
         time.sleep(0.6)
         print('探女:"最后祝你不愉快"')
         time.sleep(0.6)
-        print("Poject ver 1.1.0 by zqs")
+        print("Poject ver 1.1.1 by zqs")
         time.sleep(0.6)
         name=input('''对了，你叫什么名字？（如果不能成功召唤输入法可以试试从外部复制黏贴哦）
 我说：''')
@@ -111,7 +111,7 @@ def azqstool():
         elif name=="王嘉堃":
             time.sleep(1)
             print("你做东方鬼畜音mad好吗？")
-        elif name=="郑琦山"or"zqs":
+        elif name=="郑琦山"or name=="zqs":
             time.sleep(1)
             print("aznb")
         elif name=="育梓彭":
