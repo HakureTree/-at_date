@@ -16,6 +16,8 @@ def jisuanqitool():
         time.sleep(0.5)
         print("④除法")
         time.sleep(0.5)
+        print("⑤圆面积计算(π取3.14)")
+        time.sleep(0.5)
         print("退出请输入‘quit’")
         time.sleep(0.5)
         jisuanqimode = input("请输入你需要模式的对应编号：")
@@ -63,6 +65,14 @@ def jisuanqitool():
             jisuanqidierweishu = float(input("请输入除数："))
             time.sleep(1)
             print("计算结果为："+str(jisuanqidiyiweishu/jisuanqidierweishu))
+            time.sleep(1)
+        elif jisuanqimode == "5":
+            time.sleep(0.5)
+            print("除法模式！")
+            time.sleep(1)
+            jisuanqidiyiweishu = float(input("请输入圆的半径(仅数字):"))
+            time.sleep(1)
+            print("计算结果为："+str(3.14*jisuanqidiyiweishu*jisuanqidiyiweishu))
             time.sleep(1)
         else:
             time.sleep(1)
