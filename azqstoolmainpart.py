@@ -21,7 +21,7 @@ def azqstool():
     else:
         print("用户数据不存在")
         time.sleep(1)
-        userdate="*这是用户数据储存的地方*"
+        userdate="*暂无用户数据*"
         file = open(r'C:\ProgramData\userdata_at.txt', 'w')
         file.write(userdate)
         time.sleep(0.5)
@@ -92,7 +92,7 @@ def azqstool():
         time.sleep(0.6)
         print('探女:"最后祝你不愉快"')
         time.sleep(0.6)
-        print("Poject ver 1.1.1 by zqs")
+        print("Poject ver 1.1.3 by zqs")
         time.sleep(0.6)
         name=input('''对了，你叫什么名字？（如果不能成功召唤输入法可以试试从外部复制黏贴哦）
 我说：''')
