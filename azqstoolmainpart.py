@@ -160,7 +160,7 @@ def azqstool():
             time.sleep(0.3)
             print("3.大数计算器")
             time.sleep(0.3)
-            print("4.语录宝典")
+            print("4.空")
             time.sleep(0.3)
             print("5.超级复读机")
             time.sleep(0.3)
@@ -205,7 +205,7 @@ def azqstool():
                 print("")
                 print(name+"祈祷中...")
                 print("")
-                yulubaodian()
+                #yulubaodian()
             elif toolmode == "5":
                 print("")
                 print(name+"祈祷中...")
