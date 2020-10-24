@@ -21,7 +21,7 @@ def azqstool():
     else:
         print("用户数据不存在")
         time.sleep(1)
-        userdate="*暂无用户数据*"
+        userdate="*暂无个性签名*"
         file = open(r'C:\ProgramData\userdata_at.txt', 'w')
         file.write(userdate)
         time.sleep(0.5)
@@ -61,7 +61,8 @@ def azqstool():
     print("正在加载验证模块...")
     time.sleep(random.randint(0,1))
     print("您的识别码为："+hwid)
-    print("您的用户数据中储存着："+userdate)
+    time.sleep(0.5)
+    print("*"+userdate+"*")
     time.sleep(0.5)
     mimachangshicishu=3
     while mimachangshicishu>0:
@@ -92,7 +93,7 @@ def azqstool():
         time.sleep(0.6)
         print('探女:"最后祝你不愉快"')
         time.sleep(0.6)
-        print("Poject ver 1.1.3 by zqs")
+        print("Poject ver 1.1.4 by zqs")
         time.sleep(0.6)
         name=input('''对了，你叫什么名字？（如果不能成功召唤输入法可以试试从外部复制黏贴哦）
 我说：''')
@@ -160,7 +161,7 @@ def azqstool():
             time.sleep(0.3)
             print("3.大数计算器")
             time.sleep(0.3)
-            print("4.空")
+            print("4.心灵鸡汤")
             time.sleep(0.3)
             print("5.超级复读机")
             time.sleep(0.3)
@@ -205,7 +206,7 @@ def azqstool():
                 print("")
                 print(name+"祈祷中...")
                 print("")
-                #yulubaodian()
+                yulubaodian()
             elif toolmode == "5":
                 print("")
                 print(name+"祈祷中...")
