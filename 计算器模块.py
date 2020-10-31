@@ -6,7 +6,7 @@ from tkinter import messagebox
 def jisuanqitool():
     time.sleep(2)
     while 1>0:
-        print("<<<<<<无限制位数计算器>>>>>>")
+        print("<<<<<<计算器>>>>>>")
         time.sleep(1)
         print("①加法")
         time.sleep(0.5)
@@ -17,6 +17,8 @@ def jisuanqitool():
         print("④除法")
         time.sleep(0.5)
         print("⑤圆面积计算(π取3.14)")
+        time.sleep(0.5)
+        print("⑥圆周长计算(π取3.14)")
         time.sleep(0.5)
         print("退出请输入‘quit’")
         time.sleep(0.5)
@@ -68,11 +70,19 @@ def jisuanqitool():
             time.sleep(1)
         elif jisuanqimode == "5":
             time.sleep(0.5)
-            print("除法模式！")
+            print("圆面积计算模式！")
             time.sleep(1)
             jisuanqidiyiweishu = float(input("请输入圆的半径(仅数字):"))
             time.sleep(1)
-            print("计算结果为："+str(3.14*jisuanqidiyiweishu*jisuanqidiyiweishu))
+            print("圆的面积为："+str(3.14*jisuanqidiyiweishu*jisuanqidiyiweishu))
+            time.sleep(1)
+        elif jisuanqimode == "6":
+            time.sleep(0.5)
+            print("圆周长计算模式！")
+            time.sleep(1)
+            jisuanqidiyiweishu = float(input("请输入圆的半径(仅数字):"))
+            time.sleep(1)
+            print("圆的周长为："+str(3.14*2*jisuanqidiyiweishu))
             time.sleep(1)
         else:
             time.sleep(1)
